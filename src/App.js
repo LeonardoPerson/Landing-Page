@@ -1,15 +1,10 @@
 //import './App.css';
-import barImage from './image/barImage.png'
+import Header from './header'
 
 const App = () => {
   return (
     <div className="grid-container">
-      <header className="header">
-        <div className="super-bar">
-          <img src={barImage}/>
-          <div className="super-bar-title">SUPERGIANTSGAME</div>  
-        </div>
-      </header>
+      <Header />
       <div className="container">
         <section className="section1">section1</section>
         <section className="section2">section2</section>
