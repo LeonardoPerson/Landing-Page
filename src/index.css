@@ -26,16 +26,25 @@ body {
 
 .header{
   grid-area: header;
-  background-image: url("./image/component.png");
+  background: url("./image/component.png");
   background-size: cover;
   background-position: 100% 100%; /*posição responsiva de largura x altura*/
   background-repeat: no-repeat;
-  background-color: "#363636";
 }
 
-.header::after{
-  background-color: "#363636";
+.header2{
+  display: flex;
+  justify-content: center;
 }
+
+.card-header{
+  background-color: #9C020480;
+  box-shadow: 0px 3px 6px #00000099;
+  opacity: 1;
+  display: flex;
+  height: 1080px;
+  width: 586px
+  }
 
 .container{
   grid-area: container;
@@ -84,12 +93,18 @@ body {
   padding: 30px;
 }
 
-@media(max-width: 500px){
+
+
+@media(max-width: 650px){
  
 .super-bar-title{
   font: normal normal bold 16px/26px Montserrat;
   padding: 0px;
 }
+
+.card-header{
+  width: 300px
+  }
 
 }
 
