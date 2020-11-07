@@ -45,3 +45,22 @@ body {
   height: 100vh;
 }
 
+
+.section1{
+  grid-area: section1;
+  background-color: #363636;
+  height: 1147px;
+}
+
+.section2{
+  grid-area: section2; 
+  height: 742px;
+}
+
+.footer{
+  grid-area: footer;
+  background: #363636 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 410px;
+}
+
