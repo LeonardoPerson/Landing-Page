@@ -7,7 +7,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 62.5%;
 }
 
 #root{
@@ -20,7 +19,7 @@ body {
   "header"
   "container";
   grid-template-columns: 1fr; 
-  grid-template-rows: 1080px 2505px;
+  grid-template-rows: 1fr 1fr;
   height: 100%;  
 }
 
@@ -45,12 +44,13 @@ body {
   display: flex;
   flex-direction: column; 
   align-items: center;
-  width: 586px;
-  height: 1080px;
+  width: 586px; 
+  position: relative;
   }
 
+
 .text-card-top{  
-  font: normal normal bold 15px/18px Open Sans;
+  font: normal bold 15px/18px Open Sans;
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
@@ -78,9 +78,18 @@ body {
 .grupo1-penas, .grupo2-penas{
   display: flex;
   flex-direction: column;
+  position: absolute;
 }
 
+.grupo1-penas{ 
+  right: 490px;
+  top: 370px;
+}
 
+.grupo2-penas{
+  left: 420px;
+  top: 290px;
+}
 
 .container{
   grid-area: container;
@@ -130,13 +139,49 @@ body {
 }
 
 @media(max-width: 650px){ 
-.super-bar-title{
-  font: normal normal bold 16px/26px Montserrat;
-  padding: 0px;
-}
-
-.card-header{
-  width: 300px
+  .super-bar-title{
+    font: normal normal bold 16px/26px Montserrat;
+    padding: 0px;
   }
+
+  .card-header{
+    width: 300px
+    }
+
+  .card-mulher{  
+    max-width: 256px;
+    max-height: 454px;
+    width: auto;
+    height: auto;
+  }
+
+  .text-card-top{ 
+    font-size: 10px; 
+  }
+
+  .text-card-bottom{
+    font-size: 12px;
+  }
+ 
+  .pena1, .pena2{
+    left: 260px;
+    bottom: 160px;
+    max-width: 89px;
+    max-height: 138px;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+
+  .pena3, .pena4{
+    right: 210px;
+    bottom: 120px;
+    max-width: 109px;
+    max-height: 138px;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  
 }
 
