@@ -20,13 +20,13 @@ body {
   "header"
   "container";
   grid-template-columns: 1fr; 
-  grid-template-rows: 120vh 1fr;
+  grid-template-rows: 1080px 2505px;
   height: 100%;  
 }
 
 .header{
   grid-area: header;
-  background: url("./image/component.png");
+  background: url("./image/component.png") no-repeat;
   background-size: cover;
   background-position: 100% 100%; /*posição responsiva de largura x altura*/
   background-repeat: no-repeat;
@@ -35,16 +35,52 @@ body {
 .header2{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.card-header{
-  background-color: #9C020480;
+.card-header{ 
+  background-image: linear-gradient(to bottom, #9C020480, #4D101045);
   box-shadow: 0px 3px 6px #00000099;
   opacity: 1;
   display: flex;
+  flex-direction: column; 
+  align-items: center;
+  width: 586px;
   height: 1080px;
-  width: 586px
   }
+
+.text-card-top{  
+  font: normal normal bold 15px/18px Open Sans;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  align-self: flex-start;
+  padding: 1.5rem;
+}
+
+.text-card-bottom{
+  font: normal normal normal 20px/21px Open Sans;
+  letter-spacing: 0px;
+  color: #F0F0F2;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-mulher{  
+  max-width: 526px;
+  max-height: 754px;
+  width: auto;
+  height: auto;
+}
+
+.grupo1-penas, .grupo2-penas{
+  display: flex;
+  flex-direction: column;
+}
+
+
 
 .container{
   grid-area: container;
@@ -61,7 +97,7 @@ body {
 .section1{
   grid-area: section1;
   background-color: #363636;
-  height: 1147px;
+  height: 800px;
 }
 
 .section2{
@@ -93,10 +129,7 @@ body {
   padding: 30px;
 }
 
-
-
-@media(max-width: 650px){
- 
+@media(max-width: 650px){ 
 .super-bar-title{
   font: normal normal bold 16px/26px Montserrat;
   padding: 0px;
@@ -105,6 +138,5 @@ body {
 .card-header{
   width: 300px
   }
-
 }
 
