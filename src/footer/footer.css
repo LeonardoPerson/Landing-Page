@@ -1,0 +1,8 @@
+/*Estilos do arquivo Footer.js deste mesmo diretório*/
+
+.footer{
+  grid-area: footer;
+  background: #363636 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 410px;
+}

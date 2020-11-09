@@ -1,5 +1,7 @@
-import Carousel from './Carousel'
-import Form from './Form'
+/*Este compomente unifica os arquivos Carousel.js e Form.js*/
+
+import Carousel from './carousel/Carousel'
+import Form from './form/Form'
 
 const Main = () => {
   return (

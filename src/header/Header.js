@@ -1,10 +1,11 @@
 
-import barImage from './image/barImage.png'
-import mulher from './image/mulher.png'
-import pena1 from './image/pena1.png'
-import pena2 from './image/pena2.png'
-import pena3 from './image/pena3.png'
-import pena4 from './image/pena4.png'
+import barImage from '../image/barImage.png'
+import mulher from '../image/mulher.png'
+import pena1 from '../image/pena1.png'
+import pena2 from '../image/pena2.png'
+import pena3 from '../image/pena3.png'
+import pena4 from '../image/pena4.png'
+import './header.css'
 
 const Header = () => {
   return(

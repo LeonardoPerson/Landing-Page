@@ -1,7 +1,8 @@
-//import './App.css';
-import Header from './Header'
-import Main from './Main'
-import Footer from './Footer'
+/*Este arquivo reúne os 3 componentes principais: Header, Main e Footer*/
+
+import Header from './header/Header'
+import Main from './main/Main'
+import Footer from './footer/Footer'
 import './index.css';
 
 const App = () => {
