@@ -17,7 +17,7 @@ body {
   display: grid;
   grid-template-areas: 
   "header"
-  "container";
+  "main";
   grid-template-columns: 1fr; 
   grid-template-rows: 1fr 1fr;
   height: 100%;  
@@ -64,8 +64,9 @@ body {
   color: #F0F0F2;
   text-shadow: 0px 3px 6px #00000029;
   opacity: 1;
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
+  text-align: end;
 }
 
 .card-mulher{  
@@ -91,8 +92,8 @@ body {
   top: 290px;
 }
 
-.container{
-  grid-area: container;
+.main{
+  grid-area: main;
   display: grid;
   grid-template-areas: 
   "section1"
@@ -106,8 +107,83 @@ body {
 .section1{
   grid-area: section1;
   background-color: #363636;
-  height: 800px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.button-white{
+  border-radius: 70px;
+  position: absolute;
+  top: 1030px;
+  max-width: 56px;
+  max-height: 56px;
+  width: auto;
+  height: auto;
+}
+
+.button-arrow{
+  position: absolute;
+  padding: 8px;
+  top: 1090px;
+  align-self: center;
+  box-shadow: 2px -2px 0 -1px rgb(255, 255, 255) inset;
+  transform: rotate(-45deg);
+  margin: center;
+}
+
+.left-arrow{
+  position: absolute;
+  padding: 20px;
+  box-shadow: 2px -2px 0 1px rgb(255, 255, 255) inset;
+  border: solid transparent;
+  border-width: 0 0 2px 2px;
+  transform: rotate(45deg);
+  margin-right: 1170px;
+}
+
+.right-arrow{
+  position: absolute;
+  padding: 20px;
+  box-shadow: 2px -2px 0 1px rgb(255, 255, 255) inset;
+  border: solid transparent;
+  border-width: 0 0 2px 2px;
+  transform: rotate(225deg);
+  margin-left: 1170px;
+}
+
+.grant, .red, .sybil{
+  max-width: 230px;
+  max-height: 600px;
+  width: auto;
+  height: auto;
+  align-self: center;
+  background-color: #363636;
+  background-size: 500px 500px;
+  border-radius: 80px;
+  border: solid 2px white;
+  margin-top: -140px;
+}
+
+.grant-containter, .red-container, .sybil-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 330px;
+  width: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px #FFFFFF63;
+  border-radius: 31px;
+  opacity: 1;
+  margin: 30px;
+  padding: 15px;
+  font: normal 14px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #363636;
+  opacity: 1;
+}
+
 
 .section2{
   grid-area: section2; 
@@ -137,6 +213,7 @@ body {
   opacity: 1;
   padding: 30px;
 }
+
 
 @media(max-width: 650px){ 
   .super-bar-title{

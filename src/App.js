@@ -1,22 +1,12 @@
 //import './App.css';
 import Header from './header'
+import Main from './main'
 
 const App = () => {
   return (
     <div className="grid-container">
-
       <Header />
-
-      <div className="container">
-        <section className="section1">
-          section1
-        </section>
-
-        <section className="section2">
-          section2
-        </section>
-        <footer className="footer">footer</footer>
-      </div>
+      <Main />
     </div>
   );
 }
