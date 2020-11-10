@@ -1,7 +1,7 @@
 /*Arquivo que armazena todos os dados dos personagens*/
 
-import grant from '../../image/grant.png'
-import red from '../../image/red.png'
+import grant from '../../image/Grant.png'
+import red from '../../image/Red.png'
 import sybil from '../../image/sybil.png'
 
 const character = [
