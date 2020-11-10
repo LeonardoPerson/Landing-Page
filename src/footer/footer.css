@@ -5,4 +5,36 @@
   background: #363636 0% 0% no-repeat padding-box;
   opacity: 1;
   height: 410px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.return-top{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 5%;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+.arrow-footer{
+  width: 30px;
+  height: 30px;
+  box-shadow: 2px -2px 0 -1px rgb(0, 0, 0) inset;
+  transform: rotate(135deg);
+}
+
+@media(max-width: 730px){ 
+
+  
+.return-top{  
+  margin-right: 10%;
+  margin-top: 30%;
+}
+
 }

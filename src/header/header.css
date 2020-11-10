@@ -1,6 +1,6 @@
 /*Estilos do arquivo Header.js deste mesmo diretório*/
 
-.header{
+#header{
   grid-area: header;
   background: url("../image/component.png") no-repeat;
   background-size: cover;
