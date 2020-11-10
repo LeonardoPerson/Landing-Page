@@ -28,7 +28,7 @@
   color: #FFFFFF;
   text-transform: uppercase;
   opacity: 1;
-  padding: 30px;
+  padding: 10px;
 }
 
 .card-header{ 
@@ -70,7 +70,7 @@
   height: auto;
 }
 
-.grupo1-penas, .grupo2-penas{
+.grupo1-penas{
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -81,9 +81,16 @@
   top: 370px;
 }
 
-.grupo2-penas{
-  left: 420px;
-  top: 290px;
+.pena3{
+  left: 450px;
+  top: 260px;
+  position: absolute;
+}
+
+.pena4{
+  left: 470px;
+  top: 480px;
+  position: absolute;
 }
 
 @media(max-width: 730px){ 
@@ -122,13 +129,21 @@
   }
 
   .pena3, .pena4{
-    right: 210px;
-    bottom: 120px;
     max-width: 109px;
     max-height: 138px;
     width: auto;
-    height: auto;
-    position: relative;
+    height: auto;    
+  }
+
+  .pena3{
+    left: 220px;
+    top: 160px;
+  }
+
+  .pena4{
+    left: 220px;
+    top: 250px;
+
   }
   
 }
