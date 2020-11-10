@@ -5,9 +5,11 @@ const Form = () => {
   const [enviou, setEnviou] = useState(false)
     if(enviou){
       return(
-        <div className="form">
-          <div className="send-warning">Sua mensagem foi enviada!</div>
-          <input className="form-button" onClick={() => setEnviou(!enviou)} type="button" value="VOLTAR"/>
+        <div className="section2">
+          <div className="form">
+            <div className="send-warning">Sua mensagem foi enviada!</div>
+            <input className="form-button-warning" onClick={() => setEnviou(!enviou)} type="button" value="VOLTAR"/>
+          </div>
         </div>
       )
     } 
@@ -23,11 +25,11 @@ const Form = () => {
           ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         </p>
         <div className="form-input">
-          <input className="input-text" type="text" placeholder="Nome"/>
-          <input className="input-email" type="email" placeholder="Email" /><br/>
+          <input className="input-text" type="text" placeholder="Nome" required="required"/>
+          <input className="input-email" type="email" placeholder="Email" required="required"/><br/>
         </div>
-        <textarea className="textarea" placeholder="Mensagem"></textarea>
-        <input className="form-button" onClick={() => setEnviou(!enviou)} type="button" value="ENVIAR"/>
+        <textarea className="textarea" placeholder="Mensagem" required="required"></textarea>
+        <input className="form-button" onClick={() => setEnviou(!enviou)} type="submit" value="ENVIAR"/>
       </form>
     </section>
   )

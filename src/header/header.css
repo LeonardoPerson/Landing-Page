@@ -86,7 +86,7 @@
   top: 290px;
 }
 
-@media(max-width: 650px){ 
+@media(max-width: 730px){ 
   .super-bar-title{
     font: normal normal bold 16px/26px Montserrat;
     padding: 0px;

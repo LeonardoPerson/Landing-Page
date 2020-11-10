@@ -70,7 +70,6 @@
   border-radius: 80px;
   border: solid 2px white;
   margin-top: -140px;
-  overflow: hidden;
 }
 
 .grant-container, .red-container, .sybil-container{
@@ -79,7 +78,7 @@
   justify-content: end;
   height: 330px;
   width: 235px;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   box-shadow: 0px 3px 6px #FFFFFF63;
   border-radius: 31px;
   opacity: 1;
@@ -90,6 +89,105 @@
   color: #363636;
   opacity: 1;
 }
+
+@media (max-width: 1260px){
+  .grant-container, .red-container, .sybil-container{
+    width: 180px;
+    height: 350px;
+    font-size: 14px;
+  }
+
+  .grant, .red, .sybil{
+    max-width: 180px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    border-radius: 60px;
+    margin-top: -80px;
+  }
+  
+  .left-arrow{
+    margin-right: 870px;
+  }
+
+  .right-arrow{
+   
+    margin-left: 870px;
+  }
+  
+}
+
+@media (max-width: 1000px){
+  .grant-container{
+    height: 0px;
+    width: 0px; 
+    font-size: opx; 
+    box-shadow: none;
+    margin: 1%;
+    padding: 0px;
+  }
+
+  .grant{
+    max-width: 0px;
+    max-height: 0px;
+    width: auto;
+    height: auto;
+    background-color:none;
+    margin: 100px
+  }
+
+  .left-arrow{
+    margin-right: 570px;
+  }
+
+  .right-arrow{   
+    margin-left: 570px;
+  }  
+}
+
+@media(max-width: 730px){ 
+  .button-white{ 
+    top: 650px;  
+  }
+
+  .button-arrow{
+    top: 650px;
+  }
+
+  .red-container{
+    height: 0px;
+    width: 0px; 
+    font-size: opx; 
+    box-shadow: none;
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .red{
+    max-width: 0px;
+    max-height: 0px;
+    width: auto;
+    height: auto;
+    background-color:none;
+    margin: 100px
+
+  }
+
+  .left-arrow{
+    margin-right: 300px;
+  }
+
+  .right-arrow{
+   
+    margin-left: 300px;
+  }  
+ 
+  
+
+}
+
+
 
 
 
