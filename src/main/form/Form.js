@@ -17,7 +17,7 @@ const Form = () => {
 
   return(
     <section className="section2">
-      <form className="form">
+      <form className="form" onSubmit={() => setEnviou(!enviou)}>
         <p className="form-title">FORMULÁRIO</p>
         <p className="form-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna 
@@ -29,7 +29,7 @@ const Form = () => {
           <input className="input-email" type="email" placeholder="Email" required="required"/><br/>
         </div>
         <textarea className="textarea" placeholder="Mensagem" required="required"></textarea>
-        <input className="form-button" onClick={() => setEnviou(!enviou)} type="submit" value="ENVIAR"/>
+        <input className="form-button" type="submit" value="ENVIAR"/>
       </form>
     </section>
   )
