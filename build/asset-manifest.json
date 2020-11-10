@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5de17e92.chunk.css",
+    "main.js": "/static/js/main.61b90fe2.chunk.js",
+    "main.js.map": "/static/js/main.61b90fe2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4648a018.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4648a018.js.map",
+    "static/js/2.c737c0e8.chunk.js": "/static/js/2.c737c0e8.chunk.js",
+    "static/js/2.c737c0e8.chunk.js.map": "/static/js/2.c737c0e8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.5de17e92.chunk.css.map": "/static/css/main.5de17e92.chunk.css.map",
+    "static/js/2.c737c0e8.chunk.js.LICENSE.txt": "/static/js/2.c737c0e8.chunk.js.LICENSE.txt",
+    "static/media/Grant.3f7767d8.png": "/static/media/Grant.3f7767d8.png",
+    "static/media/Red.e27ee05b.png": "/static/media/Red.e27ee05b.png",
+    "static/media/header.css": "/static/media/component.fbbacfae.png",
+    "static/media/mulher.77ddec54.png": "/static/media/mulher.77ddec54.png",
+    "static/media/pena3.573ddfc0.png": "/static/media/pena3.573ddfc0.png",
+    "static/media/sybil.e3677b3f.png": "/static/media/sybil.e3677b3f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4648a018.js",
+    "static/js/2.c737c0e8.chunk.js",
+    "static/css/main.5de17e92.chunk.css",
+    "static/js/main.61b90fe2.chunk.js"
+  ]
+}
