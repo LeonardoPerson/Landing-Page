@@ -12,8 +12,7 @@ const Form = () => {
           </div>
         </div>
       )
-    } 
-  
+    }   
 
   return(
     <section className="section2">
