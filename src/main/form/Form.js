@@ -28,7 +28,7 @@ const Form = () => {
           <input className="input-text" type="text" placeholder="Nome" required="required"/>
           <input className="input-email" type="email" placeholder="Email" required="required"/><br/>
         </div>
-        <textarea className="textarea" placeholder="Mensagem" required="required"></textarea>
+        <textarea className="textarea" placeholder="Mensagem" required="required" maxLength="300"></textarea>
         <input className="form-button" type="submit" value="ENVIAR"/>
       </form>
     </section>
