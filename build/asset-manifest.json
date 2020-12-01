@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.b0621a60.chunk.css",
-    "main.js": "/static/js/main.61b90fe2.chunk.js",
-    "main.js.map": "/static/js/main.61b90fe2.chunk.js.map",
+    "main.css": "/static/css/main.0fa7e2c2.chunk.css",
+    "main.js": "/static/js/main.d19b36c8.chunk.js",
+    "main.js.map": "/static/js/main.d19b36c8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4648a018.js",
     "runtime-main.js.map": "/static/js/runtime-main.4648a018.js.map",
-    "static/js/2.c737c0e8.chunk.js": "/static/js/2.c737c0e8.chunk.js",
-    "static/js/2.c737c0e8.chunk.js.map": "/static/js/2.c737c0e8.chunk.js.map",
+    "static/js/2.94726899.chunk.js": "/static/js/2.94726899.chunk.js",
+    "static/js/2.94726899.chunk.js.map": "/static/js/2.94726899.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b0621a60.chunk.css.map": "/static/css/main.b0621a60.chunk.css.map",
-    "static/js/2.c737c0e8.chunk.js.LICENSE.txt": "/static/js/2.c737c0e8.chunk.js.LICENSE.txt",
-    "static/media/Grant.3f7767d8.png": "/static/media/Grant.3f7767d8.png",
-    "static/media/Red.e27ee05b.png": "/static/media/Red.e27ee05b.png",
+    "static/css/main.0fa7e2c2.chunk.css.map": "/static/css/main.0fa7e2c2.chunk.css.map",
+    "static/js/2.94726899.chunk.js.LICENSE.txt": "/static/js/2.94726899.chunk.js.LICENSE.txt",
+    "static/media/Grant-Copia.e901fa7f.png": "/static/media/Grant-Copia.e901fa7f.png",
+    "static/media/Grant.e901fa7f.png": "/static/media/Grant.e901fa7f.png",
+    "static/media/Red-Copia.743f6556.png": "/static/media/Red-Copia.743f6556.png",
+    "static/media/Red.743f6556.png": "/static/media/Red.743f6556.png",
     "static/media/header.css": "/static/media/component.fbbacfae.png",
     "static/media/mulher.77ddec54.png": "/static/media/mulher.77ddec54.png",
     "static/media/pena3.573ddfc0.png": "/static/media/pena3.573ddfc0.png",
-    "static/media/sybil.e3677b3f.png": "/static/media/sybil.e3677b3f.png"
+    "static/media/sybil-Copia.0de0e7ec.png": "/static/media/sybil-Copia.0de0e7ec.png",
+    "static/media/sybil.0de0e7ec.png": "/static/media/sybil.0de0e7ec.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4648a018.js",
-    "static/js/2.c737c0e8.chunk.js",
-    "static/css/main.b0621a60.chunk.css",
-    "static/js/main.61b90fe2.chunk.js"
+    "static/js/2.94726899.chunk.js",
+    "static/css/main.0fa7e2c2.chunk.css",
+    "static/js/main.d19b36c8.chunk.js"
   ]
 }

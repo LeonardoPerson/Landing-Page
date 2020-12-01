@@ -51,13 +51,16 @@
   width: 100%;
 }
 
+.input-text{
+  text-transform: capitalize;
+}
+
 .input-text, .input-email{ 
   padding: 1%;
   margin: 1%;
   width: 30%;
-  font: normal 14px/24px Open Sans;
-  color: #363636;
-  text-transform: capitalize;
+  font: 14px;
+  color: #363636; 
   opacity: 1;
 }
 
@@ -67,7 +70,6 @@
   padding: 1%;
   font: normal 14px/24px Open Sans;
   color: #363636;
-  text-transform: capitalize;
   opacity: 1;
   resize: none;
 }

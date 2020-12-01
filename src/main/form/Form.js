@@ -3,6 +3,9 @@ import {useState} from 'react'
 
 const Form = () => {
   const [enviou, setEnviou] = useState(false)
+  const [email, setEmail] = useState('')
+
+ 
     if(enviou){
       return(
         <div className="section2">
@@ -28,8 +31,9 @@ const Form = () => {
           <input className="input-email" type="email" placeholder="Email" required="required"/><br/>
         </div>
         <textarea className="textarea" placeholder="Mensagem" required="required" maxLength="300"></textarea>
-        <input className="form-button" type="submit" value="ENVIAR"/>
+        <input className="form-button" type='submit' value="ENVIAR"/>
       </form>
+      {console.log(email)}
     </section>
   )
 }
